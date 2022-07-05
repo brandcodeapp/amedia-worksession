@@ -2,7 +2,7 @@
   "button": {
     "primary": {
       "background": {
-        "value": "$palette.grayscale.0",
+        "value": "{semantic.actions.primary.background}",
         "type": "color"
       },
       "background-hover": {
