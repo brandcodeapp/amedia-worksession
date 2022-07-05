@@ -1,1 +1,157 @@
-{}
+{
+  "radius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "5",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "15",
+      "type": "borderRadius"
+    },
+    "rounded": {
+      "value": "50%",
+      "type": "borderRadius",
+      "description": "Maximum radius"
+    },
+    "teaser": {
+      "value": "$radius.m",
+      "type": "borderRadius",
+      "description": "Teaser card"
+    },
+    "image": {
+      "value": "$radius.none",
+      "type": "borderRadius",
+      "description": "Full width image"
+    },
+    "button": {
+      "m": {
+        "value": "$radius.rounded",
+        "type": "borderRadius",
+        "description": "Radius for medium and small button"
+      },
+      "l": {
+        "value": "$radius.rounded",
+        "type": "borderRadius",
+        "description": "Radius for large button"
+      }
+    }
+  },
+  "space": {
+    "teaser-margin": {
+      "value": "0",
+      "description": "Left and right margin for teaser ",
+      "type": "spacing"
+    },
+    "none": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "x1s": {
+      "value": "3",
+      "type": "spacing"
+    },
+    "x1": {
+      "value": "5",
+      "type": "spacing"
+    },
+    "x2s": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "x2": {
+      "value": "{space.x1} * 2",
+      "type": "spacing"
+    },
+    "x3": {
+      "value": "{space.x1} * 3",
+      "type": "spacing"
+    },
+    "x4": {
+      "value": "{space.x1} * 4",
+      "type": "spacing"
+    },
+    "x5": {
+      "value": "{space.x1} * 5",
+      "type": "spacing"
+    },
+    "x6": {
+      "value": "{space.x1} * 6",
+      "type": "spacing"
+    },
+    "x7": {
+      "value": "{space.x1} * 7",
+      "type": "spacing"
+    },
+    "x8": {
+      "value": "{space.x1} * 8",
+      "type": "spacing"
+    },
+    "x9": {
+      "value": "{space.x1} * 9",
+      "type": "spacing"
+    },
+    "x10": {
+      "value": "{space.x1} * 10",
+      "type": "spacing"
+    },
+    "x11": {
+      "value": "{space.x1} * 11",
+      "type": "spacing"
+    },
+    "teaser": {
+      "value": "{space.x3}",
+      "type": "spacing"
+    }
+  },
+  "borderWidths": {
+    "focus": {
+      "value": "3",
+      "type": "borderWidth",
+      "description": "Used on outline in focus state"
+    },
+    "ad-divider": {
+      "value": "1",
+      "type": "borderWidth",
+      "description": "Ad divider"
+    },
+    "teaser": {
+      "value": "0.5",
+      "type": "borderWidth",
+      "description": "Thin stroke around teaser"
+    }
+  },
+  "shadows": {
+    "teaser": {
+      "value": {
+        "color": "rgba(0,0,0, 0.1)",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "2",
+        "blur": "3",
+        "spread": "0"
+      },
+      "type": "boxShadow",
+      "description": "Used on all teasers"
+    },
+    "tag-author": {
+      "value": {
+        "color": "#00000040",
+        "type": "dropShadow",
+        "x": "1",
+        "y": "1",
+        "blur": "1",
+        "spread": "0"
+      },
+      "type": "boxShadow",
+      "description": "Used on text on author badge on teaser-opinion"
+    }
+  }
+}

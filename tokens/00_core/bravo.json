@@ -1,1 +1,1752 @@
-{}
+{
+  "color": {
+    "frontpage": {
+      "bg": {
+        "value": "$palette.grayscale.90",
+        "type": "color",
+        "description": "Background on the front page of the newspaper"
+      }
+    },
+    "article": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color",
+        "description": "Background color on a standard article"
+      }
+    },
+    "article-feature": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color",
+        "description": "Background on a feature article"
+      }
+    },
+    "article-video": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color",
+        "description": "Background on a video article"
+      }
+    },
+    "teaser": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "border": {
+        "value": "$palette.sfx.overlay-black.10",
+        "type": "color",
+        "description": "Teaser stroke"
+      }
+    },
+    "teaser-no-image": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      }
+    },
+    "teaser-light": {
+      "pretitle": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      }
+    },
+    "teaser-inverted": {
+      "bg": {
+        "value": "$palette.grayscale.16",
+        "type": "color"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      }
+    },
+    "teaser-dark": {
+      "pretitle": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      }
+    },
+    "teaser-feature": {
+      "pretitle": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "gradient-topLeft": {
+        "value": "linear-gradient(135deg, #000000 0%, #00000000 40%)",
+        "type": "color"
+      },
+      "gradient-bottomLeft": {
+        "value": "linear-gradient(46deg, #000000 0%, #00000000 28%)",
+        "type": "color"
+      },
+      "gradient-bottom": {
+        "value": "linear-gradient(0deg, #000000 0%, #00000000 40%)",
+        "type": "color"
+      }
+    },
+    "teaser-opinion": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(163deg, #00000099 0%, #00000065 17.63%, #00000010 40.63%, #00000000 50.63%, #00000000 100%)",
+        "type": "color",
+        "description": "Used on image"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "border": {
+        "value": "$palette.sfx.overlay-black.10",
+        "type": "color",
+        "description": "Border for light teaser"
+      }
+    },
+    "list": {
+      "latest": {
+        "body-text": {
+          "value": "$palette.grayscale.0",
+          "type": "color",
+          "description": "Text color on latestlist"
+        },
+        "timestamp-text": {
+          "value": "$palette.grayscale.28",
+          "type": "color",
+          "description": "Text on timestamps on latestlist"
+        },
+        "bg": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Background color on latestlist"
+        },
+        "divider": {
+          "value": "$palette.grayscale.90",
+          "type": "color",
+          "description": "Divider used on latestlist"
+        },
+        "gradient": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Gradient used on latestlist on large screens"
+        }
+      }
+    },
+    "pill": {
+      "text": {
+        "value": "$palette.sfx.overlay-black.80",
+        "type": "color",
+        "description": "Pill without background text"
+      },
+      "divider": {
+        "value": "$palette.grayscale.80",
+        "type": "color"
+      },
+      "inverted": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        }
+      },
+      "opinion": {
+        "text": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        }
+      },
+      "breaking": {
+        "text": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        }
+      },
+      "breaking-inverted": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        }
+      }
+    },
+    "pill-filled": {
+      "text": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      },
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "inverted": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$palette.grayscale.16",
+          "type": "color"
+        }
+      },
+      "opinion": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        }
+      },
+      "opinion-inverted": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$palette.brand-example.alert-inverted",
+          "type": "color"
+        }
+      },
+      "breaking": {
+        "text": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        }
+      },
+      "breaking-inverted": {
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$palette.brand-example.alert",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        }
+      }
+    },
+    "supportive": {
+      "purple": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "brown": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "cinnamon": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "redDark": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "red": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "green": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "greenLight": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "gold": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "blueLight": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "yellow": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "redLight": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "black": {
+        "background": {
+          "value": "$palette.grayscale.16",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "finance": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "description": "Supportive",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      },
+      "grayDark": {
+        "background": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.0",
+          "type": "color"
+        }
+      }
+    },
+    "card": {
+      "dark": {
+        "background": {
+          "value": "$palette.grayscale.28",
+          "type": "color",
+          "description": "Background dark card"
+        },
+        "text": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Text on dark card."
+        }
+      },
+      "light": {
+        "background": {
+          "value": "$palette.grayscale.90",
+          "type": "color",
+          "description": "Background light card"
+        },
+        "text": {
+          "value": "$palette.grayscale.16",
+          "type": "color",
+          "description": "Text on light card."
+        }
+      }
+    },
+    "ad": {
+      "divider": {
+        "value": "$palette.grayscale.75",
+        "type": "color",
+        "description": "Ad divider"
+      },
+      "text": {
+        "value": "$palette.grayscale.28",
+        "type": "color",
+        "description": "Ad text"
+      }
+    },
+    "addon": {
+      "bg": {
+        "value": "$palette.grayscale.95",
+        "type": "color",
+        "description": "Used on background for addon on regular teasers"
+      },
+      "title-text": {
+        "value": "$palette.grayscale.0",
+        "type": "color",
+        "description": "Title text for addon on regular teasers"
+      },
+      "body-text": {
+        "value": "$palette.grayscale.28",
+        "type": "color",
+        "description": "Body text for addon on regular teasers"
+      },
+      "light": {
+        "bg": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Used on background for addon on brand light teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.0",
+          "type": "color",
+          "description": "Used on title text for addon on brand light teasers"
+        },
+        "body-text": {
+          "value": "$palette.grayscale.28",
+          "type": "color",
+          "description": "Used on body text for addon on brand light teasers"
+        }
+      },
+      "dark": {
+        "bg": {
+          "value": "$palette.sfx.overlay-white.10",
+          "type": "color",
+          "description": "Used on background for addon on brand dark teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Used on title text for addon on brand dark teasers"
+        },
+        "body-text": {
+          "value": "$palette.sfx.overlay-white.80",
+          "type": "color",
+          "description": "Used on body text for addon on brand dark teasers"
+        }
+      },
+      "inverted": {
+        "bg": {
+          "value": "$palette.sfx.overlay-white.10",
+          "type": "color",
+          "description": "Used on background for addon on inverted teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.100",
+          "type": "color",
+          "description": "Used on title text for addon on inverted teasers"
+        },
+        "body-text": {
+          "value": "$palette.sfx.overlay-white.80",
+          "type": "color",
+          "description": "Used on body text for addon on inverted teasers"
+        }
+      }
+    },
+    "accessibility": {
+      "focus": {
+        "value": "$palette.system.interaction.40",
+        "type": "color",
+        "description": "Used to highlight focused elements while tabbing through the page"
+      }
+    }
+  },
+  "palette": {
+    "brand-example": {
+      "alert": {
+        "value": "#ee0000",
+        "type": "color"
+      },
+      "alert-inverted": {
+        "value": "#D01601",
+        "type": "color"
+      },
+      "light": {
+        "value": "#D9E9F9",
+        "type": "color"
+      },
+      "base": {
+        "value": "#094181",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#0A1938",
+        "type": "color"
+      },
+      "opinion": {
+        "value": "#e68408",
+        "type": "color"
+      }
+    },
+    "grayscale": {
+      "0": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "16": {
+        "value": "#292827",
+        "type": "color"
+      },
+      "28": {
+        "value": "#474646",
+        "type": "color"
+      },
+      "75": {
+        "value": "#bfbfbf",
+        "type": "color"
+      },
+      "80": {
+        "value": "#cccccc",
+        "type": "color"
+      },
+      "85": {
+        "value": "#dadada",
+        "type": "color"
+      },
+      "90": {
+        "value": "#e5e5e5",
+        "type": "color"
+      },
+      "95": {
+        "value": "#f1f1f1",
+        "type": "color"
+      },
+      "98": {
+        "value": "#fafafa",
+        "type": "color"
+      },
+      "100": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "sfx": {
+      "overlay-black": {
+        "10": {
+          "value": "rgba(0, 0, 0, 0.1)",
+          "type": "color",
+          "description": "A 10 percent dark overlay"
+        },
+        "60": {
+          "value": "rgba(0, 0, 0, 0.6)",
+          "type": "color",
+          "description": "A 60 percent dark overlay"
+        },
+        "80": {
+          "value": "rgba(0, 0, 0, 0.8)",
+          "type": "color",
+          "description": "A 80 percent dark overlay"
+        }
+      },
+      "overlay-white": {
+        "10": {
+          "value": "rgba(255, 255, 255, 0.1)",
+          "type": "color",
+          "description": "A 10 percent white overlay"
+        },
+        "80": {
+          "value": "rgba(255, 255, 255, 0.8)",
+          "type": "color",
+          "description": "A 80 percent white overlay"
+        }
+      }
+    },
+    "system": {
+      "interaction": {
+        "40": {
+          "value": "#1060BC",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "typography": {
+    "label-light": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.2",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Light text on labels for small screens"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.2",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Light text on labels for large screens"
+      }
+    },
+    "label-regular": {
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.2",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular text on tip us for small screens"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.2",
+          "fontSize": "18px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular text on tip us for large screens"
+      }
+    },
+    "label-bold": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.2",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on labels for small screens"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.2",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on labels for large screens"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.2",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on tip us for small screens"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.2",
+          "fontSize": "18px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on tip us for large screens"
+      }
+    },
+    "list": {
+      "latest": {
+        "timestamp": {
+          "m": {
+            "value": {
+              "fontFamily": "National 2",
+              "fontWeight": "300",
+              "lineHeight": "1.20",
+              "fontSize": "13px",
+              "letterSpacing": "0em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "uppercase"
+            },
+            "type": "typography",
+            "description": "Timestamp in latest list"
+          }
+        },
+        "body": {
+          "m": {
+            "value": {
+              "fontFamily": "National 2",
+              "fontWeight": "500",
+              "lineHeight": "1.25",
+              "fontSize": "16px",
+              "letterSpacing": "0em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Body text in latest list."
+          }
+        }
+      }
+    },
+    "pretitle": {
+      "xs": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle.Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Card teaser mobile"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Mobile teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "18px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 310 and 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 640px teaser"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 980px teaser"
+      }
+    },
+    "title": {
+      "xs": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "19px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Small teaser with image, small teaeser in group with image. Notification mobile"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "21px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title\tCard teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "26px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Mobile teaser. Desktop 310px teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "30px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Desktop 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "40px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Desktop 640px teaser. Notification desktop 640 and 980."
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "50px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Desktop 980px teaser."
+      }
+    },
+    "title-breaking": {
+      "xs": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "21px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "21px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Card teaser mobile"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "30px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Mobile teaser. Desktop 310px teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 475px teaser. Notification desktop 475px. "
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "40px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 640px teaser. teaser with no image desktop 640px and 980px.  "
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.05",
+          "fontSize": "50px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 980px teaser.  "
+      },
+      "dark": {
+        "xs": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "21px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Small teaser and small teaser inside group."
+        },
+        "s": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "21px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Card teaser mobile."
+        },
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "30px",
+            "letterSpacing": "-0.02em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Mobile teaser. Desktop 310px teaser"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "40px",
+            "letterSpacing": "-0.02em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 475px teaser. Notification desktop 475px, 640px and 980px."
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "50px",
+            "letterSpacing": "-0.02em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 640px teaser."
+        },
+        "xxl": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.05",
+            "fontSize": "50px",
+            "letterSpacing": "-0.02em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 980px teaser."
+        }
+      }
+    },
+    "title-opinion": {
+      "xs": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "26px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Small teaser and small teaser inside group."
+      },
+      "s": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.00",
+          "fontSize": "27px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Card teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Mobile teaser. Desktop 310px teaser."
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 475px teaser."
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "45px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 640px teaser."
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "45px",
+          "letterSpacing": "-0.02em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 980px teaser."
+      }
+    },
+    "lead": {
+      "xs": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead.Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Card teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Mobile teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "18px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 310 and 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 640px teaser"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 980px teaser"
+      }
+    },
+    "figcaption": {
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.40",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used on metadata"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.40",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Used on figcaption"
+      }
+    },
+    "grouptitle": {
+      "vertical": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "17px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "26px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title. Large screens."
+        }
+      },
+      "vertical-breaking": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "17px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title breaking. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "26px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title breaking. Large screens."
+        },
+        "dark": {
+          "m": {
+            "value": {
+              "fontFamily": "National 2",
+              "fontWeight": "500",
+              "lineHeight": "1.05",
+              "fontSize": "17px",
+              "letterSpacing": "0.00em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Vertical group title breaking dark. Small screens."
+          },
+          "l": {
+            "value": {
+              "fontFamily": "National 2",
+              "fontWeight": "700",
+              "lineHeight": "1.20",
+              "fontSize": "30px",
+              "letterSpacing": "-0.01em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Vertical group title breaking dark. Large screens."
+          }
+        }
+      }
+    },
+    "ad": {
+      "lable": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "300",
+            "lineHeight": "1.0",
+            "fontSize": "13px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "uppercase"
+          },
+          "type": "typography",
+          "description": "Ad Label. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "300",
+            "lineHeight": "1.0",
+            "fontSize": "14px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "uppercase"
+          },
+          "type": "typography",
+          "description": "Ad Label. Large screens."
+        }
+      }
+    },
+    "addon": {
+      "title": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.10",
+            "fontSize": "16px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Title for teaser add on. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "18px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Title for teaser add on. Large screens."
+        }
+      },
+      "body": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "400",
+            "lineHeight": "1.10",
+            "fontSize": "16px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Body text for teaser add on. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "18px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Body text for teaser add on. Large screens."
+        }
+      }
+    },
+    "utility": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Semantic token used on medium UI elements"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "17px",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Semantic token used on large UI elements"
+      },
+      "bold": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "16px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Semantic token used on bold text in medium UI elements"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "17px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Semantic token used on bold text in large UI elements"
+        }
+      }
+    },
+    "card-body": {
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "400",
+          "lineHeight": "1.60",
+          "fontSize": "18px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Card body text desktop",
+        "type": "typography"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "400",
+          "lineHeight": "1.60",
+          "fontSize": "18px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Body text on card",
+        "type": "typography"
+      }
+    },
+    "card-title": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.20",
+          "fontSize": "36px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Card title desktop and mobile",
+        "type": "typography"
+      }
+    },
+    "article": {
+      "headline": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "32px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Headline inside article on small screens"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "60px",
+            "letterSpacing": "-0.02em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Headline inside article on large screens"
+        }
+      },
+      "subhead": {
+        "m": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.20",
+            "fontSize": "24px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Subhead inside article on small screens"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "National 2",
+            "fontWeight": "700",
+            "lineHeight": "1.20",
+            "fontSize": "24px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Subhead inside article on large screens"
+        }
+      }
+    }
+  }
+}
