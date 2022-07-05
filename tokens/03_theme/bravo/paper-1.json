@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "actions": {
+      "primary": {
+        "default": {
+          "background": {
+            "value": "#5d5d5d",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

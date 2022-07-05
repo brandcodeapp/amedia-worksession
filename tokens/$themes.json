@@ -1,1 +1,94 @@
-[]
+[
+  {
+    "id": "f7c27df854a600dfb9ce360421462f474381a6e7",
+    "name": "Brave Base",
+    "selectedTokenSets": {
+      "00_core/base": "enabled",
+      "00_core/bravo": "enabled",
+      "01_semantic": "enabled",
+      "02_comp/button": "enabled",
+      "03_theme/bravo/00_base": "enabled",
+      "alfa": "disabled",
+      "alt-dark": "disabled",
+      "alt": "disabled",
+      "bravo": "disabled",
+      "charlie": "disabled",
+      "dagens-2": "disabled",
+      "dagens": "disabled",
+      "nettavisen": "disabled",
+      "03_theme/bravo/paper-1": "disabled",
+      "03_theme/alpha/00_base": "disabled",
+      "03_theme/alpha/paper-1": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "12f8b65c0cdb66bf91d441852c0bd4f8eb34fcc4",
+    "name": "Bravo / paper-1",
+    "selectedTokenSets": {
+      "00_core/base": "enabled",
+      "00_core/bravo": "enabled",
+      "01_semantic": "enabled",
+      "02_comp/button": "enabled",
+      "03_theme/bravo/00_base": "enabled",
+      "alfa": "disabled",
+      "alt-dark": "disabled",
+      "alt": "disabled",
+      "bravo": "disabled",
+      "charlie": "disabled",
+      "dagens-2": "disabled",
+      "dagens": "disabled",
+      "nettavisen": "disabled",
+      "03_theme/bravo/paper-1": "enabled",
+      "03_theme/alpha/00_base": "disabled",
+      "03_theme/alpha/paper-1": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "dfa00a02c0893a4e89ff064b93056fa56b9da286",
+    "name": "Alpha base",
+    "selectedTokenSets": {
+      "00_core/base": "enabled",
+      "00_core/bravo": "enabled",
+      "01_semantic": "enabled",
+      "02_comp/button": "enabled",
+      "alfa": "disabled",
+      "alt-dark": "disabled",
+      "alt": "disabled",
+      "bravo": "disabled",
+      "charlie": "disabled",
+      "dagens-2": "disabled",
+      "dagens": "disabled",
+      "nettavisen": "disabled",
+      "03_theme/alpha/00_base": "enabled",
+      "03_theme/alpha/paper-1": "disabled",
+      "03_theme/bravo/00_base": "disabled",
+      "03_theme/bravo/paper-1": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "4ad838af72d0edd88ff5d4ddf2d4a4613cc446a5",
+    "name": "Alpha / paper-1",
+    "selectedTokenSets": {
+      "00_core/base": "enabled",
+      "00_core/bravo": "enabled",
+      "01_semantic": "enabled",
+      "02_comp/button": "enabled",
+      "alfa": "disabled",
+      "alt-dark": "disabled",
+      "alt": "disabled",
+      "bravo": "disabled",
+      "charlie": "disabled",
+      "dagens-2": "disabled",
+      "dagens": "disabled",
+      "nettavisen": "disabled",
+      "03_theme/alpha/00_base": "enabled",
+      "03_theme/alpha/paper-1": "enabled",
+      "03_theme/bravo/00_base": "disabled",
+      "03_theme/bravo/paper-1": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

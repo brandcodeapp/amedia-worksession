@@ -1,13 +1,25 @@
 {
   "button": {
     "primary": {
-      "background": {
-        "value": "{semantic.actions.primary.background}",
-        "type": "color"
+      "default": {
+        "background": {
+          "value": "{semantic.actions.primary.default.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{semantic.actions.primary.default.text}",
+          "type": "color"
+        }
       },
-      "background-hover": {
-        "value": "$palette.brand-example.dark",
-        "type": "color"
+      "hover": {
+        "background": {
+          "value": "{semantic.actions.primary.hover.background}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{semantic.actions.primary.hover.text}",
+          "type": "color"
+        }
       },
       "background-pressed": {
         "value": "$palette.brand-example.dark",
@@ -19,14 +31,6 @@
       },
       "background-disabled": {
         "value": "$palette.grayscale.95",
-        "type": "color"
-      },
-      "text": {
-        "value": "$palette.grayscale.100",
-        "type": "color"
-      },
-      "text-hover": {
-        "value": "$palette.grayscale.100",
         "type": "color"
       },
       "text-pressed": {
