@@ -1,0 +1,3109 @@
+{
+  "palette": {
+    "grayscale": {
+      "tint-5": {
+        "value": "#292827",
+        "type": "color"
+      },
+      "tint-4": {
+        "value": "#484544",
+        "type": "color"
+      },
+      "tint-3": {
+        "value": "#565452",
+        "type": "color"
+      },
+      "tint-2": {
+        "value": "#83807c",
+        "type": "color"
+      },
+      "tint-1": {
+        "value": "#aeadad",
+        "type": "color"
+      },
+      "shade-1": {
+        "value": "#e6e5e5",
+        "type": "color"
+      },
+      "shade-2": {
+        "value": "#e1e0db",
+        "type": "color"
+      },
+      "shade-3": {
+        "value": "#e7e6e2",
+        "type": "color"
+      },
+      "shade-4": {
+        "value": "#f6f5f1",
+        "type": "color"
+      },
+      "shade-5": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "brand": {
+      "a-base": {
+        "value": "#b71918",
+        "type": "color"
+      }
+    },
+    "system": {
+      "success-shade-1": {
+        "value": "#dff0d8",
+        "type": "color"
+      },
+      "success-base": {
+        "value": "#3c763d",
+        "type": "color"
+      },
+      "success-tint-1": {
+        "value": "#2b542c",
+        "type": "color"
+      },
+      "interaction-shade-1": {
+        "value": "#d9edf7",
+        "type": "color"
+      },
+      "interaction-base": {
+        "value": "#0771d8",
+        "type": "color"
+      },
+      "interaction-tint-1": {
+        "value": "#245269",
+        "type": "color"
+      },
+      "warning-shade-1": {
+        "value": "#fcf8e3",
+        "type": "color"
+      },
+      "warning-base": {
+        "value": "#8a6d3b",
+        "type": "color"
+      },
+      "warning-tint-1": {
+        "value": "#66512c",
+        "type": "color"
+      },
+      "danger-shade-1": {
+        "value": "#f2dede",
+        "type": "color"
+      },
+      "danger-base": {
+        "value": "#d20000",
+        "type": "color"
+      },
+      "danger-tint-1": {
+        "value": "#a94442",
+        "type": "color"
+      }
+    },
+    "flavour": {
+      "a-base": {
+        "value": "#292827",
+        "type": "color"
+      },
+      "b-base": {
+        "value": "#692e1d",
+        "type": "color"
+      },
+      "c-base": {
+        "value": "#f3c3c3",
+        "type": "color"
+      },
+      "d-base": {
+        "value": "#d20000",
+        "type": "color"
+      },
+      "e-base": {
+        "value": "#c41012",
+        "type": "color"
+      },
+      "f-base": {
+        "value": "#d2691e",
+        "type": "color"
+      },
+      "g-base": {
+        "value": "#d0e4f1",
+        "type": "color"
+      },
+      "h-base": {
+        "value": "#309ad1",
+        "type": "color"
+      },
+      "i-base": {
+        "value": "#66268c",
+        "type": "color"
+      },
+      "j-base": {
+        "value": "#c8edaf",
+        "type": "color"
+      },
+      "k-base": {
+        "value": "#4d772d",
+        "type": "color"
+      },
+      "l-base": {
+        "value": "#feffbe",
+        "type": "color"
+      },
+      "m-base": {
+        "value": "#ffcc14",
+        "type": "color"
+      },
+      "n-base": {
+        "value": "#aeaaa6",
+        "type": "color"
+      },
+      "o-base": {
+        "value": "#e7e6e2",
+        "type": "color"
+      },
+      "p-base": {
+        "value": "#feefe0",
+        "type": "color"
+      }
+    },
+    "viz": {
+      "red-tint-2": {
+        "value": "#67090a",
+        "type": "color"
+      },
+      "red-tint-1": {
+        "value": "#960d0e",
+        "type": "color"
+      },
+      "red-base": {
+        "value": "$palette.flavour.e-base",
+        "type": "color"
+      },
+      "red-shade-1": {
+        "value": "#f79798",
+        "type": "color"
+      },
+      "red-shade-2": {
+        "value": "#fbcbcc",
+        "type": "color"
+      },
+      "orange-tint-2": {
+        "value": "#743a11",
+        "type": "color"
+      },
+      "orange-tint-1": {
+        "value": "#a55318",
+        "type": "color"
+      },
+      "orange-base": {
+        "value": "$palette.flavour.f-base",
+        "type": "color"
+      },
+      "orange-shade-1": {
+        "value": "#eeb48b",
+        "type": "color"
+      },
+      "orange-shade-2": {
+        "value": "#f4ceb3",
+        "type": "color"
+      },
+      "yellow-tint-2": {
+        "value": "#856800",
+        "type": "color"
+      },
+      "yellow-tint-1": {
+        "value": "#dbac00",
+        "type": "color"
+      },
+      "yellow-base": {
+        "value": "$palette.flavour.m-base",
+        "type": "color"
+      },
+      "yellow-shade-1": {
+        "value": "#ffe380",
+        "type": "color"
+      },
+      "yellow-shade-2": {
+        "value": "#fff1bd",
+        "type": "color"
+      },
+      "green-tint-2": {
+        "value": "#2d5313",
+        "type": "color"
+      },
+      "green-tint-1": {
+        "value": "#41791b",
+        "type": "color"
+      },
+      "green-base": {
+        "value": "#559e24",
+        "type": "color"
+      },
+      "green-shade-1": {
+        "value": "$palette.flavour.j-base",
+        "type": "color"
+      },
+      "green-shade-2": {
+        "value": "#e2f6d5",
+        "type": "color"
+      },
+      "blue-tint-2": {
+        "value": "#1c445f",
+        "type": "color"
+      },
+      "blue-tint-1": {
+        "value": "#286186",
+        "type": "color"
+      },
+      "blue-base": {
+        "value": "#3786b9",
+        "type": "color"
+      },
+      "blue-shade-1": {
+        "value": "#a1c9e3",
+        "type": "color"
+      },
+      "blue-shade-2": {
+        "value": "$palette.flavour.g-base",
+        "type": "color"
+      },
+      "purple-tint-2": {
+        "value": "#43195c",
+        "type": "color"
+      },
+      "purple-tint-1": {
+        "value": "$palette.flavour.i-base",
+        "type": "color"
+      },
+      "purple-base": {
+        "value": "#9236c9",
+        "type": "color"
+      },
+      "purple-shade-1": {
+        "value": "#d3afe9",
+        "type": "color"
+      },
+      "purple-shade-2": {
+        "value": "#e7d3f3",
+        "type": "color"
+      }
+    },
+    "brand-subject": {
+      "sport": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  },
+  "color": {
+    "frontpage": {
+      "bg": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color",
+        "description": "Background on the front page of the newspaper"
+      }
+    },
+    "article": {
+      "bg": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color",
+        "description": "Background color on a standard article"
+      }
+    },
+    "article-feature": {
+      "bg": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color",
+        "description": "Background on a feature article"
+      }
+    },
+    "article-video": {
+      "bg": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color",
+        "description": "Background on a video article"
+      }
+    },
+    "base": {
+      "body": {
+        "background": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-weak": {
+          "value": "$palette.grayscale.tint-3",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "background": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background-weak": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "border": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "#292827",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "#e7e6e2",
+          "type": "color"
+        },
+        "background": {
+          "value": "#e7e6e2",
+          "type": "color"
+        }
+      },
+      "signal": {
+        "background": {
+          "value": "$palette.brand.a-base",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color",
+          "description": ""
+        }
+      },
+      "commercial": {
+        "background": {
+          "value": "#f4cf3e",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      }
+    },
+    "supportive": {
+      "purple": {
+        "background": {
+          "value": "$palette.flavour.i-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "brown": {
+        "background": {
+          "value": "$palette.flavour.b-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "background": {
+          "value": "$palette.flavour.h-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "cinnamon": {
+        "background": {
+          "value": "$palette.flavour.f-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "redDark": {
+        "background": {
+          "value": "$palette.flavour.e-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "red": {
+        "background": {
+          "value": "$palette.flavour.d-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "green": {
+        "background": {
+          "value": "$palette.flavour.k-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "greenLight": {
+        "background": {
+          "value": "$palette.flavour.j-base",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "gold": {
+        "background": {
+          "value": "$palette.flavour.m-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "blueLight": {
+        "background": {
+          "value": "$palette.flavour.g-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "yellow": {
+        "background": {
+          "value": "$palette.flavour.l-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "redLight": {
+        "background": {
+          "value": "$palette.flavour.c-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "black": {
+        "background": {
+          "value": "{palette.flavour.a-base}",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "background": {
+          "value": "$palette.flavour.o-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "finance": {
+        "background": {
+          "value": "$palette.flavour.p-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      },
+      "grayDark": {
+        "background": {
+          "value": "$palette.flavour.n-base",
+          "type": "color",
+          "description": "Supportive"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        }
+      }
+    },
+    "system": {
+      "danger": {
+        "background": {
+          "value": "$palette.system.danger-shade-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.danger-tint-1",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "background": {
+          "value": "$palette.system.warning-shade-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.system.warning-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.warning-tint-1",
+          "type": "color"
+        }
+      },
+      "success": {
+        "background": {
+          "value": "$palette.system.success-shade-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.system.success-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.success-tint-1",
+          "type": "color"
+        }
+      },
+      "interaction": {
+        "background": {
+          "value": "$palette.system.interaction-shade-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.system.interaction-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.interaction-tint-1",
+          "type": "color"
+        },
+        "focus": {
+          "value": "$palette.system.interaction-base",
+          "type": "color"
+        }
+      }
+    },
+    "sfx": {
+      "overlay": {
+        "dark": {
+          "20": {
+            "value": "rgba({palette.grayscale.tint-5}, 0.2)",
+            "type": "color"
+          },
+          "60": {
+            "value": "rgba({palette.grayscale.tint-5}, 0.6)",
+            "type": "color"
+          },
+          "80": {
+            "value": "rgba({palette.grayscale.tint-5}, 0.8)",
+            "type": "color"
+          },
+          "100": {
+            "value": "rgba({palette.grayscale.tint-5}, 1)",
+            "type": "color"
+          },
+          "text": {
+            "value": "$palette.grayscale.shade-5",
+            "type": "color"
+          }
+        },
+        "light": {
+          "20": {
+            "value": "rgba({palette.grayscale.shade-5}, 0.2)",
+            "type": "color"
+          },
+          "60": {
+            "value": "rgba({palette.grayscale.shade-5}, 0.6)",
+            "type": "color"
+          },
+          "80": {
+            "value": "rgba({palette.grayscale.shade-5}, 0.8)",
+            "type": "color"
+          },
+          "100": {
+            "value": "rgba({palette.grayscale.shade-5}, 1)",
+            "type": "color"
+          },
+          "text": {
+            "value": "$palette.grayscale.tint-5",
+            "type": "color"
+          }
+        }
+      },
+      "gradient": {
+        "dark": {
+          "value": "linear-gradient(180deg, rgba({palette.grayscale.tint-5}, 0) 0%, rgba({palette.grayscale.tint-5}, 1) 100%)",
+          "type": "color"
+        },
+        "light": {
+          "value": "linear-gradient(180deg, rgba({palette.grayscale.shade-5}, 0) 0%, rgba({palette.grayscale.shade-5}, 1) 100%)",
+          "type": "color",
+          "description": "From fff 100% to fff 0%"
+        }
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "$palette.grayscale.tint-3",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "border": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-active": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        },
+        "border-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "icon-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "icon-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "$palette.grayscale.shade-3",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "$palette.grayscale.shade-3",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "border": {
+          "value": "$palette.grayscale.shade-3",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-active": {
+          "value": "$palette.grayscale.shade-3",
+          "type": "color"
+        },
+        "border-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-hover": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "icon-active": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "outlined": {
+        "background": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "border": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-active": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-hover": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "icon-active": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "signal": {
+        "background": {
+          "value": "$palette.grayscale.tint-3",
+          "type": "color"
+        },
+        "background-hover": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "background-active": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        },
+        "background-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "text-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "text-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "text-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "border": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "border-active": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        },
+        "border-disabled": {
+          "value": "$palette.grayscale.tint-1",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "icon-hover": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "icon-active": {
+          "value": "$palette.grayscale.shade-1",
+          "type": "color"
+        },
+        "icon-disabled": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        }
+      }
+    },
+    "viz": {
+      "map": {
+        "temp": {
+          "high": {
+            "value": "$palette.viz.red-base",
+            "type": "color"
+          },
+          "mid-high": {
+            "value": "$palette.viz.orange-base",
+            "type": "color"
+          },
+          "mid": {
+            "value": "$palette.viz.yellow-base",
+            "type": "color"
+          },
+          "mid-low": {
+            "value": "$palette.viz.green-shade-1",
+            "type": "color"
+          },
+          "low": {
+            "value": "$palette.viz.blue-shade-1",
+            "type": "color"
+          }
+        },
+        "danger": {
+          "high": {
+            "value": "$palette.viz.red-base",
+            "type": "color"
+          },
+          "mid-high": {
+            "value": "$palette.viz.orange-base",
+            "type": "color"
+          },
+          "mid": {
+            "value": "$palette.viz.yellow-base",
+            "type": "color"
+          },
+          "none": {
+            "value": "$palette.grayscale.tint-1",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "container": {
+      "divider": {
+        "value": "$palette.grayscale.shade-3",
+        "type": "color"
+      }
+    },
+    "card": {
+      "dark": {
+        "background": {
+          "value": "$palette.grayscale.tint-3",
+          "type": "color",
+          "description": "grayscale/tint-3"
+        },
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color",
+          "description": "grayscale/shade-5"
+        }
+      },
+      "light": {
+        "background": {
+          "value": "$palette.grayscale.shade-2",
+          "type": "color",
+          "description": "grayscale/shade-2"
+        },
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color",
+          "description": "grayscale/tint-5"
+        }
+      }
+    },
+    "pill": {
+      "text": {
+        "value": "$palette.grayscale.tint-5",
+        "type": "color",
+        "description": "Generic token for list elements"
+      },
+      "divider": {
+        "value": "$palette.grayscale.tint-1",
+        "type": "color"
+      },
+      "inverted": {
+        "text": {
+          "value": "palette.grayscale.shade-5",
+          "type": "color"
+        }
+      },
+      "opinion": {
+        "text": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color"
+        }
+      },
+      "breaking": {
+        "text": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        }
+      },
+      "breaking-inverted": {
+        "text": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        }
+      }
+    },
+    "pill-filled": {
+      "text": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "bg": {
+        "value": "$color.sfx.overlay.dark.80",
+        "type": "color"
+      },
+      "inverted": {
+        "text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$color.sfx.overlay.light.80",
+          "type": "color"
+        }
+      },
+      "opinion": {
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$color.sfx.overlay.dark.80",
+          "type": "color"
+        }
+      },
+      "opinion-inverted": {
+        "text": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color"
+        },
+        "bg": {
+          "value": "$color.sfx.overlay.dark.80",
+          "type": "color"
+        }
+      },
+      "breaking": {
+        "text": {
+          "value": "$palette.flavour.m-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.flavour.m-base",
+          "type": "color"
+        }
+      },
+      "breaking-inverted": {
+        "text": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        },
+        "icon": {
+          "value": "$palette.system.danger-base",
+          "type": "color"
+        }
+      }
+    },
+    "teaser": {
+      "bg": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.tint-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      }
+    },
+    "teaser-no-image": {
+      "bg": {
+        "value": "$palette.grayscale.shade-3",
+        "type": "color"
+      }
+    },
+    "teaser-light": {
+      "pretitle": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.tint-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      }
+    },
+    "teaser-inverted": {
+      "bg": {
+        "value": "$palette.grayscale.tint-4",
+        "type": "color"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      }
+    },
+    "teaser-dark": {
+      "pretitle": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      }
+    },
+    "teaser-feature": {
+      "pretitle": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "gradient-topLeft": {
+        "value": "linear-gradient(135deg, #000000 0%, #00000000 40%)",
+        "type": "color"
+      },
+      "gradient-bottomLeft": {
+        "value": "linear-gradient(46deg, #000000 0%, #00000000 28%)",
+        "type": "color"
+      },
+      "gradient-bottom": {
+        "value": "linear-gradient(0deg, #000000 0%, #00000000 40%)",
+        "type": "color"
+      }
+    },
+    "teaser-opinion": {
+      "bg": {
+        "value": "$palette.grayscale.shade-5",
+        "type": "color"
+      },
+      "gradient": {
+        "value": "linear-gradient(163deg, #00000099 0%, #00000065 17.63%, #00000010 40.63%, #00000000 50.63%, #00000000 100%)",
+        "type": "color",
+        "description": "Used on image"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.tint-5",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color"
+      }
+    },
+    "ad": {
+      "divider": {
+        "value": "$palette.grayscale.shade-3",
+        "type": "color",
+        "description": "Ad divider"
+      },
+      "text": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color",
+        "description": "Ad text"
+      }
+    },
+    "addon": {
+      "bg": {
+        "value": "$palette.grayscale.shade-4",
+        "type": "color",
+        "description": "Used on background for addon on regular teasers"
+      },
+      "title-text": {
+        "value": "$palette.grayscale.tint-5",
+        "type": "color",
+        "description": "Title text for addon on regular teasers"
+      },
+      "body-text": {
+        "value": "$palette.grayscale.tint-3",
+        "type": "color",
+        "description": "Body text for addon on regular teasers"
+      },
+      "light": {
+        "bg": {
+          "value": "$palette.grayscale.shade-4",
+          "type": "color",
+          "description": "Used on background for addon on brand light teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color",
+          "description": "Used on title text for addon on brand light teasers"
+        },
+        "body-text": {
+          "value": "$palette.grayscale.tint-3",
+          "type": "color",
+          "description": "Used on body text for addon on brand light teasers"
+        }
+      },
+      "dark": {
+        "bg": {
+          "value": "$palette.grayscale.shade-4",
+          "type": "color",
+          "description": "Used on background for addon on brand dark teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color",
+          "description": "Used on title text for addon on brand dark teasers"
+        },
+        "body-text": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color",
+          "description": "Used on body text for addon on brand dark teasers"
+        }
+      },
+      "inverted": {
+        "bg": {
+          "value": "$palette.grayscale.shade-4",
+          "type": "color",
+          "description": "Used on background for addon on inverted teasers"
+        },
+        "title-text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color",
+          "description": "Used on title text for addon on inverted teasers"
+        },
+        "body-text": {
+          "value": "$palette.grayscale.tint-4",
+          "type": "color",
+          "description": "Used on body text for addon on inverted teasers"
+        }
+      }
+    },
+    "list": {
+      "latest": {
+        "body-text": {
+          "value": "$palette.grayscale.tint-5",
+          "type": "color",
+          "description": "Text color on latestlist"
+        },
+        "timestamp-text": {
+          "value": "$palette.brand.a-base",
+          "type": "color",
+          "description": "Text on timestamps on latestlist"
+        },
+        "bg": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color",
+          "description": "Background color on latestlist"
+        },
+        "divider": {
+          "value": "$palette.grayscale.shade-3",
+          "type": "color",
+          "description": "Divider used on latestlist"
+        },
+        "gradient": {
+          "value": "$palette.grayscale.shade-5",
+          "type": "color",
+          "description": "Gradient used on latestlist on large screens"
+        }
+      }
+    },
+    "accessibility": {
+      "focus": {
+        "value": "$palette.system.interaction-base",
+        "type": "color",
+        "description": "Used to highlight focused elements while tabbing through the page"
+      }
+    }
+  },
+  "fontSizes": {
+    "xs": {
+      "value": "10",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "xs1": {
+      "value": "11",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "xs2": {
+      "value": "12",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "xs3": {
+      "value": "13",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "xs4": {
+      "value": "14",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "xs5": {
+      "value": "15",
+      "type": "fontSizes",
+      "description": "deprecated"
+    },
+    "s": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "m": {
+      "value": "18",
+      "type": "fontSizes"
+    },
+    "m1": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "m2": {
+      "value": "22",
+      "type": "fontSizes"
+    },
+    "l": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "l1": {
+      "value": "26",
+      "type": "fontSizes"
+    },
+    "l2": {
+      "value": "29",
+      "type": "fontSizes"
+    },
+    "l3": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "l4": {
+      "value": "35",
+      "type": "fontSizes"
+    },
+    "l5": {
+      "value": "36",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "48",
+      "type": "fontSizes"
+    },
+    "xl1": {
+      "value": "66",
+      "type": "fontSizes"
+    },
+    "xl2": {
+      "value": "70",
+      "type": "fontSizes"
+    }
+  },
+  "fontFamilies": {
+    "main": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    },
+    "support": {
+      "value": "Guardian Egyptian",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeights": {
+    "bold": {
+      "value": "700",
+      "type": "fontWeights"
+    },
+    "regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "light": {
+      "value": "300",
+      "type": "fontWeights"
+    },
+    "bolder": {
+      "value": "900",
+      "type": "fontWeights"
+    }
+  },
+  "lineHeights": {
+    "auto": {
+      "value": "auto",
+      "type": "lineHeights"
+    },
+    "xs": {
+      "value": "1.00",
+      "type": "lineHeights"
+    },
+    "s": {
+      "value": "1.05",
+      "type": "lineHeights"
+    },
+    "s1": {
+      "value": "1.10",
+      "type": "lineHeights"
+    },
+    "m": {
+      "value": "1.15",
+      "type": "lineHeights"
+    },
+    "m1": {
+      "value": "1.20",
+      "type": "lineHeights"
+    },
+    "m2": {
+      "value": "1.25",
+      "type": "lineHeights"
+    },
+    "l": {
+      "value": "1.40",
+      "type": "lineHeights"
+    },
+    "l1": {
+      "value": "1.50",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "1.60",
+      "type": "lineHeights"
+    }
+  },
+  "letterSpacings": {
+    "w1": {
+      "value": "0.14em",
+      "description": "wide 1",
+      "type": "letterSpacing"
+    },
+    "normal": {
+      "value": "0em",
+      "type": "letterSpacing"
+    },
+    "c1": {
+      "value": "-0.01em",
+      "type": "letterSpacing",
+      "description": "compact 1"
+    },
+    "c2": {
+      "value": "-0.02em",
+      "type": "letterSpacing",
+      "description": "compact 2"
+    },
+    "c3": {
+      "value": "-0.035em",
+      "type": "letterSpacing",
+      "description": "compact 3"
+    }
+  },
+  "typography": {
+    "container-headline": {
+      "m": {
+        "value": {
+          "fontFamily": "$fontFamilies.support",
+          "fontWeight": "$fontWeights.bolder",
+          "lineHeight": "$lineHeights.m1",
+          "fontSize": "$fontSizes.m2",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      }
+    },
+    "container-subhead": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.l",
+          "fontSize": "{fontSizes.m1}",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      }
+    },
+    "container-body": {
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.xl",
+          "fontSize": "{fontSizes.m1}",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Desktop",
+        "type": "typography"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.xl",
+          "fontSize": "{fontSizes.m1}",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Mobile ",
+        "type": "typography"
+      }
+    },
+    "container-figcaption": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.l",
+          "fontSize": "$fontSizes.s",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      }
+    },
+    "container-metadata": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.l",
+          "fontSize": "$fontSizes.xs4",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      }
+    },
+    "card-body": {
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.xl",
+          "fontSize": "{fontSizes.m}",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Card body text destop",
+        "type": "typography"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.regular",
+          "lineHeight": "$lineHeights.xl",
+          "fontSize": "{fontSizes.m}",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Body text on card",
+        "type": "typography"
+      }
+    },
+    "card-title": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.m1",
+          "fontSize": "$fontSizes.l5",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Card title desktop and mobile",
+        "type": "typography"
+      }
+    },
+    "vignette": {
+      "s": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.auto",
+          "fontSize": "{fontSizes.xs4}",
+          "letterSpacing": "0.14em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.m1",
+          "fontSize": "$fontSizes.m1",
+          "letterSpacing": "0.14em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Component token used on vignette",
+        "type": "typography"
+      },
+      "emphasized": {
+        "s": {
+          "value": {
+            "fontFamily": "Guardian Sans",
+            "fontWeight": "$fontWeights.bold",
+            "lineHeight": "$lineHeights.auto",
+            "fontSize": "$fontSizes.xs4",
+            "letterSpacing": "0.14em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "description": "",
+          "type": "typography"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Sans",
+            "fontWeight": "$fontWeights.bold",
+            "lineHeight": "$lineHeights.m1",
+            "fontSize": "$fontSizes.m1",
+            "letterSpacing": "0.14em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "description": "Component token used on vignette",
+          "type": "typography"
+        }
+      }
+    },
+    "viz-display": {
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "105%",
+          "fontSize": "22",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "display text medium"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "105%",
+          "fontSize": "32",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "display text large"
+      }
+    },
+    "viz": {
+      "title": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "700",
+          "lineHeight": "1.10",
+          "fontSize": "22",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation title medium"
+      }
+    },
+    "viz-body": {
+      "xs": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "500",
+          "lineHeight": "110%",
+          "fontSize": "12",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation body x-small"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "500",
+          "lineHeight": "140%",
+          "fontSize": "14",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation body small"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "500",
+          "lineHeight": "140%",
+          "fontSize": "16",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation body medium"
+      },
+      "m-bold": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "800",
+          "lineHeight": "140%",
+          "fontSize": "16",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation body medium bold"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "700",
+          "lineHeight": "110%",
+          "fontSize": "22",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "visualisation body large"
+      }
+    },
+    "label-light": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "300",
+          "lineHeight": "100%",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "300",
+          "lineHeight": "100%",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      }
+    },
+    "label-bold": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "700",
+          "lineHeight": "100%",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "700",
+          "lineHeight": "100%",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      }
+    },
+    "main": {
+      "title": {
+        "value": {
+          "fontFamily": "$fontFamilies.support",
+          "fontWeight": "$fontWeights.bolder",
+          "lineHeight": "$lineHeights.s",
+          "fontSize": "$fontSizes.xl",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "",
+        "type": "typography"
+      },
+      "button": {
+        "m": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "$fontWeights.bold",
+            "lineHeight": "$lineHeights.l",
+            "fontSize": "$fontSizes.s",
+            "letterSpacing": "$letterSpacings.normal",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "description": "",
+          "type": "typography"
+        }
+      }
+    },
+    "utility": {
+      "m": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.l",
+          "fontSize": "$fontSizes.s",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Semantic token used on medium UI elements",
+        "type": "typography"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Open Sans",
+          "fontWeight": "$fontWeights.bold",
+          "lineHeight": "$lineHeights.l",
+          "fontSize": "$fontSizes.s",
+          "letterSpacing": "$letterSpacings.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Semantic token used on large UI elements",
+        "type": "typography"
+      },
+      "bold": {
+        "m": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "$fontWeights.bold",
+            "lineHeight": "$lineHeights.l",
+            "fontSize": "$fontSizes.s",
+            "letterSpacing": "$letterSpacings.normal",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "description": "Semantic token used on bold text in medium UI elements",
+          "type": "typography"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "$fontWeights.bold",
+            "lineHeight": "$lineHeights.l",
+            "fontSize": "$fontSizes.s",
+            "letterSpacing": "$letterSpacings.normal",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "description": "Semantic token used on bold text in large UI elements",
+          "type": "typography"
+        }
+      }
+    },
+    "list": {
+      "latest": {
+        "timestamp": {
+          "m": {
+            "value": {
+              "fontFamily": "Open Sans",
+              "fontWeight": "700",
+              "lineHeight": "1.25",
+              "fontSize": "13px",
+              "letterSpacing": "0em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Timestamp in latest list"
+          }
+        },
+        "body": {
+          "m": {
+            "value": {
+              "fontFamily": "Open Sans",
+              "fontWeight": "700",
+              "lineHeight": "1.35",
+              "fontSize": "15px",
+              "letterSpacing": "0em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Body text in latest list."
+          }
+        }
+      }
+    },
+    "pretitle": {
+      "xs": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle.Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Card teaser mobile"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Mobile teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "18px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 310 and 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 640px teaser"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Pretitle. Desktop 980px teaser"
+      }
+    },
+    "title": {
+      "xs": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "19px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Small teaser with image, small teaeser in group with image. Notification mobile"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "18.7px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title\tCard teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "5vw",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Mobile teaser. Desktop 310px teaser. 26px, but 5vw to support autolayout"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "30px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Desktop 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "40px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Desktop 640px teaser. Notification desktop 640 and 980."
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "50px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Regular and light teaser title. Desktop 980px teaser."
+      }
+    },
+    "title-breaking": {
+      "xs": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "21px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "21px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Card teaser mobile"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "30px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser title. Mobile teaser. Desktop 310px teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 475px teaser. Notification desktop 475px. "
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "40px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 640px teaser. teaser with no image desktop 640px and 980px.  "
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "900",
+          "lineHeight": "1.05",
+          "fontSize": "50px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Breaking, regular and light teaser. Desktop 980px teaser.  "
+      },
+      "dark": {
+        "xs": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "21px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Small teaser and small teaser inside group."
+        },
+        "s": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "21px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Card teaser mobile."
+        },
+        "m": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "30px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser title. Mobile teaser. Desktop 310px teaser"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "40px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 475px teaser. Notification desktop 475px, 640px and 980px."
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "50px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 640px teaser."
+        },
+        "xxl": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "50px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Dark breaking teaser with image title. Desktop 980px teaser."
+        }
+      }
+    },
+    "title-opinion": {
+      "xs": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "26px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Small teaser and small teaser inside group."
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.00",
+          "fontSize": "27px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Card teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Mobile teaser. Desktop 310px teaser."
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "35px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 475px teaser."
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "45px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 640px teaser."
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian ",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "45px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Opinion teaser title. Desktop 980px teaser."
+      }
+    },
+    "lead": {
+      "xs": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead.Small teaser and small teaser inside group"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Card teaser mobile."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.10",
+          "fontSize": "16px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Mobile teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "18px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 310 and 475px teaser"
+      },
+      "xl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 640px teaser"
+      },
+      "xxl": {
+        "value": {
+          "fontFamily": "Guardian Egyptian",
+          "fontWeight": "400",
+          "lineHeight": "1.05",
+          "fontSize": "20px",
+          "letterSpacing": "0.00em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Lead. Desktop 980px teaser"
+      }
+    },
+    "grouptitle": {
+      "vertical": {
+        "m": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "17px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "26px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title. Large screens."
+        }
+      },
+      "vertical-breaking": {
+        "m": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "17px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title breaking. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "26px",
+            "letterSpacing": "0.00em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Vertical group title breaking. Large screens."
+        },
+        "dark": {
+          "m": {
+            "value": {
+              "fontFamily": "Guardian Egyptian",
+              "fontWeight": "400",
+              "lineHeight": "1.05",
+              "fontSize": "17px",
+              "letterSpacing": "0.00em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Vertical group title breaking dark. Small screens."
+          },
+          "l": {
+            "value": {
+              "fontFamily": "Guardian Egyptian",
+              "fontWeight": "900",
+              "lineHeight": "1.20",
+              "fontSize": "30px",
+              "letterSpacing": "0.00em",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Vertical group title breaking dark. Large screens."
+          }
+        }
+      }
+    },
+    "ad": {
+      "lable": {
+        "m": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "700",
+            "lineHeight": "1.40",
+            "fontSize": "11px",
+            "letterSpacing": "0.16em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "uppercase"
+          },
+          "type": "typography",
+          "description": "Ad Label. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "700",
+            "lineHeight": "1.40",
+            "fontSize": "11px",
+            "letterSpacing": "0.16em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "uppercase"
+          },
+          "type": "typography",
+          "description": "Ad Label. Large screens."
+        }
+      }
+    },
+    "addon": {
+      "title": {
+        "m": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "500",
+            "lineHeight": "1.10",
+            "fontSize": "16px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Title for teaser add on. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "500",
+            "lineHeight": "1.05",
+            "fontSize": "18px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Title for teaser add on. Large screens."
+        }
+      },
+      "body": {
+        "m": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "400",
+            "lineHeight": "1.10",
+            "fontSize": "16px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Body text for teaser add on. Small screens."
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Open Sans",
+            "fontWeight": "400",
+            "lineHeight": "1.05",
+            "fontSize": "18px",
+            "letterSpacing": "-0.01em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Body text for teaser add on. Large screens."
+        }
+      }
+    },
+    "article": {
+      "headline": {
+        "m": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "32px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Headline inside article on small screens"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "900",
+            "lineHeight": "1.05",
+            "fontSize": "70px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Headline inside article on large screens"
+        }
+      },
+      "subhead": {
+        "m": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "700",
+            "lineHeight": "1.20",
+            "fontSize": "24px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Subhead inside article on small screens"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "Guardian Egyptian",
+            "fontWeight": "700",
+            "lineHeight": "1.20",
+            "fontSize": "24px",
+            "letterSpacing": "0.0em",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Subhead inside article on large screens"
+        }
+      }
+    }
+  },
+  "radii": {
+    "radius-0": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "radius-1": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "radius-2": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "radius-3": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "button": {
+      "value": "2",
+      "description": "Border radius for button",
+      "type": "borderRadius"
+    }
+  },
+  "radius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "teaser": {
+      "value": "$radius.none ",
+      "type": "borderRadius",
+      "description": "Teaser card"
+    },
+    "image": {
+      "value": "$radius.s",
+      "type": "borderRadius",
+      "description": "Full width image"
+    },
+    "button": {
+      "m": {
+        "value": "$radius.s",
+        "type": "borderRadius",
+        "description": "Radius for medium and small button"
+      },
+      "l": {
+        "value": "$radius.s",
+        "type": "borderRadius",
+        "description": "Radius for large button"
+      }
+    }
+  },
+  "spacings": {
+    "spacing-1": {
+      "value": "4",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-2": {
+      "value": "8",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-3": {
+      "value": "12",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-4": {
+      "value": "16",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-5": {
+      "value": "24",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-6": {
+      "value": "32",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-7": {
+      "value": "40",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-8": {
+      "value": "48",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-9": {
+      "value": "56",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-10": {
+      "value": "64",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-11": {
+      "value": "72",
+      "description": "semantic token",
+      "type": "spacing"
+    },
+    "spacing-12": {
+      "value": "80",
+      "type": "spacing"
+    }
+  },
+  "space": {
+    "none": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "x1s": {
+      "value": "3",
+      "type": "spacing",
+      "description": "Not in use in dagem"
+    },
+    "x1": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "x2s": {
+      "value": "6",
+      "type": "spacing"
+    },
+    "x2": {
+      "value": "{space.x1} * 2",
+      "type": "spacing"
+    },
+    "x3s": {
+      "value": "10",
+      "type": "spacing"
+    },
+    "x3": {
+      "value": "{space.x1} * 3",
+      "type": "spacing"
+    },
+    "x4": {
+      "value": "{space.x1} * 4",
+      "type": "spacing"
+    },
+    "x5": {
+      "value": "{space.x1} * 5",
+      "type": "spacing"
+    },
+    "x6": {
+      "value": "{space.x1} * 6",
+      "type": "spacing"
+    },
+    "x7": {
+      "value": "{space.x1} * 7",
+      "type": "spacing"
+    },
+    "x8": {
+      "value": "{space.x1} * 8",
+      "type": "spacing"
+    },
+    "x9": {
+      "value": "{space.x1} * 9",
+      "type": "spacing"
+    },
+    "x10": {
+      "value": "{space.x1} * 10",
+      "type": "spacing"
+    },
+    "x11": {
+      "value": "{space.x1} * 11",
+      "type": "spacing"
+    },
+    "teaser": {
+      "value": "{space.x3}",
+      "type": "spacing",
+      "description": "Not in use in Dagens"
+    }
+  },
+  "components": {
+    "premiumIcon-s": {
+      "value": "20",
+      "description": "Width and height for a small premium Icon",
+      "type": "sizing"
+    },
+    "premiumIcon-l": {
+      "value": "32",
+      "description": "Width and height for a large premium Icon",
+      "type": "sizing"
+    }
+  },
+  "borderWidths": {
+    "button": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "focus": {
+      "value": "3",
+      "type": "borderWidth",
+      "description": "Used on outline in focus state"
+    },
+    "ad-divider": {
+      "value": "5",
+      "type": "borderWidth",
+      "description": "Ad divider"
+    }
+  },
+  "outlineWidths": {
+    "button": {
+      "value": "3",
+      "type": "borderWidth"
+    }
+  },
+  "shadows": {
+    "teaser": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Shadows for all teasers"
+    }
+  }
+}

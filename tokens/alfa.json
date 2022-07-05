@@ -1,0 +1,288 @@
+{
+  "radius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "5",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "5",
+      "type": "borderRadius"
+    },
+    "teaser": {
+      "value": "$radius.none ",
+      "type": "borderRadius",
+      "description": "Teaser card"
+    },
+    "image": {
+      "value": "$radius.s",
+      "type": "borderRadius",
+      "description": "Full width image"
+    }
+  },
+  "space": {
+    "none": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "x1s": {
+      "value": "3",
+      "type": "spacing"
+    },
+    "x1": {
+      "value": "5",
+      "type": "spacing"
+    },
+    "x2s": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "x2": {
+      "value": "{space.x1} * 2",
+      "type": "spacing"
+    },
+    "x3": {
+      "value": "{space.x1} * 3",
+      "type": "spacing"
+    },
+    "x4": {
+      "value": "{space.x1} * 4",
+      "type": "spacing"
+    },
+    "x6": {
+      "value": "{space.x1} * 6",
+      "type": "spacing"
+    },
+    "x9": {
+      "value": "{space.x1} * 9",
+      "type": "spacing"
+    },
+    "x11": {
+      "value": "{space.x1} * 11",
+      "type": "spacing"
+    },
+    "teaser": {
+      "value": "{space.x3}",
+      "type": "spacing"
+    }
+  },
+  "palette": {
+    "grayscale": {
+      "0": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "16": {
+        "value": "#292827",
+        "type": "color"
+      },
+      "28": {
+        "value": "#474646",
+        "type": "color"
+      },
+      "75": {
+        "value": "#bfbfbf",
+        "type": "color"
+      },
+      "80": {
+        "value": "#cccccc",
+        "type": "color"
+      },
+      "85": {
+        "value": "#dadada",
+        "type": "color"
+      },
+      "90": {
+        "value": "#e5e5e5",
+        "type": "color"
+      },
+      "95": {
+        "value": "#f1f1f1",
+        "type": "color"
+      },
+      "98": {
+        "value": "#fafafa",
+        "type": "color"
+      },
+      "100": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "flavour": {
+      "a-base": {
+        "value": "#ff3",
+        "type": "color"
+      }
+    },
+    "brand-subject": {
+      "sport": {
+        "value": "#309AD1",
+        "type": "color"
+      }
+    }
+  },
+  "color": {
+    "teaser": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "pretitle": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      },
+      "title": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      },
+      "lead": {
+        "value": "$palette.grayscale.0",
+        "type": "color"
+      }
+    },
+    "badge": {
+      "bg": {
+        "value": "$palette.grayscale.100",
+        "type": "color"
+      },
+      "divider": {
+        "value": "$palette.grayscale.80",
+        "type": "color"
+      },
+      "text": {
+        "value": "$palette.grayscale.28",
+        "type": "color"
+      }
+    }
+  },
+  "typography": {
+    "label-light": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.0",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Light text on labels for small screens"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.0",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Light text on labels for large screens"
+      }
+    },
+    "label-bold": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.0",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on labels for small screens"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.0",
+          "fontSize": "14px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Bold text on labels for large screens"
+      }
+    },
+    "list": {
+      "s": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "300",
+          "lineHeight": "1.20",
+          "fontSize": "13px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Meta information in a list."
+      },
+      "m": {
+        "value": {
+          "fontFamily": "National 2",
+          "fontWeight": "500",
+          "lineHeight": "1.25",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Body text in list (Latest list, direktestudio) "
+      }
+    },
+    "title": {
+      "m": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "700",
+          "lineHeight": "0.95",
+          "fontSize": "47",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Mobile teaser. Desktop 310px teaser"
+      },
+      "l": {
+        "value": {
+          "fontFamily": "National 2 Narrow",
+          "fontWeight": "700",
+          "lineHeight": "0.95",
+          "fontSize": "47",
+          "letterSpacing": "-0.01em",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Desktop 475px teaser"
+      }
+    }
+  }
+}
